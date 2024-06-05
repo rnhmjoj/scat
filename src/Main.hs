@@ -9,6 +9,7 @@ import System.IO
 import System.Exit
 import System.Console.ANSI
 import Control.Exception
+import Control.Monad (when, unless)
 import Control.Monad.Reader
 
 import Scat
